@@ -1,0 +1,12 @@
+GET http://127.0.0.1:150
+###
+POST http://127.0.0.1:150
+Content-Type: application/json
+
+{
+    "name": "Dzaki",
+    "nrp": "17",
+    "asal": "SBY"
+}
+###
+DELETE http://127.0.0.1:150/Dzaki
